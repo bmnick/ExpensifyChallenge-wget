@@ -1,0 +1,209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5EBABC91475B1EF00111ED8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EBABC81475B1EF00111ED8 /* main.cpp */; };
+		B5EBABCB1475B1EF00111ED8 /* mywget.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B5EBABCA1475B1EF00111ED8 /* mywget.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5EBABC21475B1EF00111ED8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B5EBABCB1475B1EF00111ED8 /* mywget.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B5EBABC41475B1EF00111ED8 /* mywget */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mywget; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EBABC81475B1EF00111ED8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B5EBABCA1475B1EF00111ED8 /* mywget.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = mywget.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5EBABC11475B1EF00111ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5EBABB91475B1EF00111ED8 = {
+			isa = PBXGroup;
+			children = (
+				B5EBABC71475B1EF00111ED8 /* mywget */,
+				B5EBABC51475B1EF00111ED8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5EBABC51475B1EF00111ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5EBABC41475B1EF00111ED8 /* mywget */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5EBABC71475B1EF00111ED8 /* mywget */ = {
+			isa = PBXGroup;
+			children = (
+				B5EBABC81475B1EF00111ED8 /* main.cpp */,
+				B5EBABCA1475B1EF00111ED8 /* mywget.1 */,
+			);
+			path = mywget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5EBABC31475B1EF00111ED8 /* mywget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EBABCE1475B1EF00111ED8 /* Build configuration list for PBXNativeTarget "mywget" */;
+			buildPhases = (
+				B5EBABC01475B1EF00111ED8 /* Sources */,
+				B5EBABC11475B1EF00111ED8 /* Frameworks */,
+				B5EBABC21475B1EF00111ED8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mywget;
+			productName = mywget;
+			productReference = B5EBABC41475B1EF00111ED8 /* mywget */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5EBABBB1475B1EF00111ED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Oracle Corporation";
+			};
+			buildConfigurationList = B5EBABBE1475B1EF00111ED8 /* Build configuration list for PBXProject "mywget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5EBABB91475B1EF00111ED8;
+			productRefGroup = B5EBABC51475B1EF00111ED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5EBABC31475B1EF00111ED8 /* mywget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5EBABC01475B1EF00111ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EBABC91475B1EF00111ED8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B5EBABCC1475B1EF00111ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B5EBABCD1475B1EF00111ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B5EBABCF1475B1EF00111ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5EBABD01475B1EF00111ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5EBABBE1475B1EF00111ED8 /* Build configuration list for PBXProject "mywget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EBABCC1475B1EF00111ED8 /* Debug */,
+				B5EBABCD1475B1EF00111ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EBABCE1475B1EF00111ED8 /* Build configuration list for PBXNativeTarget "mywget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EBABCF1475B1EF00111ED8 /* Debug */,
+				B5EBABD01475B1EF00111ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5EBABBB1475B1EF00111ED8 /* Project object */;
+}
